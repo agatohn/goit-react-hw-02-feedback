@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./ButtonBlock.module.css";
 
-const Buttons = ({ addFeedback, options }) => {
+const ButtonBlock = ({ addFeedback, options }) => {
   return (
     <>
       {options.map((option) => (
@@ -19,4 +19,4 @@ const Buttons = ({ addFeedback, options }) => {
   );
 };
 
-export default Buttons;
+export default ButtonBlock;

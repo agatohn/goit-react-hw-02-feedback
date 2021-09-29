@@ -1,5 +1,5 @@
 import { Component } from "react";
-import Buttons from "../buttonBlock/ButtonBlock";
+import ButtonBlock from "../buttonBlock/ButtonBlock";
 import Notification from "../notification/Notification";
 import Section from "../section/Section";
 import Statistics from "../statistics/Statistics";
@@ -37,7 +37,7 @@ class Main extends Component {
     return (
       <>
         <Section title="Please leave your feedback">
-          <Buttons
+          <ButtonBlock
             addFeedback={addFeedback}
             options={["good", "neutral", "bad"]}
           />
