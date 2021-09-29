@@ -26,7 +26,7 @@ class Main extends Component {
     const total = this.calcFeedbackSumm();
     const { good } = this.state;
     const percentage = total ? (good / total) * 100 : 0;
-    return Number(percentage).toFixed(0);
+    return Math.round(percentage);
   };
 
   render() {
